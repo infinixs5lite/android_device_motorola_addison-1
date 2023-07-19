@@ -81,3 +81,4 @@ TW_THEME := portrait_hdpi
 TW_EXCLUDE_ENCRYPTED_BACKUPS := true
 TW_EXCLUDE_TWRPAPP := true
 TW_EXCLUDE_NANO := true
+PB_GO := true
