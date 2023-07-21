@@ -92,4 +92,4 @@ TW_USE_TOOLBOX := true
 TW_NO_EXFAT := true
 #TW_NO_USB_STORAGE := true
 #BOARD_HAS_NO_REAL_SDCARD := true
-PB_TORCH_PATH := /sys/class/leds/lcd-backlight
+PB_TORCH_PATH := /sys/class/leds/torch-light0
