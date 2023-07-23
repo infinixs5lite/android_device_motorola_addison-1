@@ -149,7 +149,7 @@ jobs:
         source build/envsetup.sh
         export ALLOW_MISSING_DEPENDENCIES=true
         lunch ${{ github.event.inputs.MAKEFILE_NAME }}-eng && make clean && make ${{ github.event.inputs.BUILD_TARGET }}image -j$(nproc --all)
-        cp workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/*.zip pbrp.zip
+        cp out/target/product/*/*.zip pbrp.zip
       working-directory: ${{ steps.pwd.outputs.workspace-folder }}
 
     - name: Upload to Release
